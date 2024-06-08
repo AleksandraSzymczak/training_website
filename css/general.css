@@ -65,6 +65,6 @@ body {
         flex-grow: 0.1;
     }
     body {
-        background-image: url("C:\\Users\\szymczak.a.4\\Documents\\website\\personal_website\\images\\girl_rotate.gif");
+        background-image: url("../images/girl_rotate.gif");
     }
 }
