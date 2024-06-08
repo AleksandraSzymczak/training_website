@@ -2,6 +2,7 @@
     font-family: 'Play', sans-serif;
     height: 100%;
     width: 100%;
+    margin: 0;
 }
 
 body {
@@ -12,6 +13,9 @@ body {
     flex-grow: 1;
     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F2471354.gif&f=1&nofb=1&ipt=01b30e8bb65f94811aca1442390657ea0e287a824f9806618dc707354ff74393&ipo=images);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .main_grid {
@@ -46,8 +50,21 @@ body {
 .content_grid > *:nth-child(2){
     opacity: 80%;
     background-color: rgb(240, 142, 218);
+    border-radius: 10%;
 }
 
 .content_grid > *{
     flex: 1;
+}
+
+@media (max-width: 768px) {
+    .content_grid > *:nth-child(1) {
+        flex-grow: 0.1;
+    }
+    .content_grid > *:nth-child(3) {
+        flex-grow: 0.1;
+    }
+    body {
+        background-image: url("C:\\Users\\szymczak.a.4\\Documents\\website\\personal_website\\images\\girl_rotate.gif");
+    }
 }
