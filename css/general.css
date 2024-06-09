@@ -33,10 +33,14 @@ body {
 
 .main_grid > *:nth-child(2){
     flex-grow: 0.7;
+    padding-bottom: 10%;
 }
 
 .main_grid > *:nth-child(3){
     flex-grow: 0.1;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    
 }
 
 .content_grid {
@@ -48,9 +52,10 @@ body {
 }
 
 .content_grid > *:nth-child(2){
-    opacity: 80%;
-    background-color: rgb(240, 142, 218);
+    background: rgba(255,255,255,0.1);
     border-radius: 10%;
+    backdrop-filter: blur(5px);
+    box-shadow: -15px 17px 17px rgba(10,10,10,0);
 }
 
 .content_grid > *{
