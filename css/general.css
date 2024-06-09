@@ -1,8 +1,10 @@
 :root {
     font-family: 'Play', sans-serif;
+    color:rgb(54, 1, 42);
     height: 100%;
     width: 100%;
     margin: 0;
+    font-size: calc((1vh+1vw)/2)
 }
 
 body {
@@ -33,12 +35,12 @@ body {
 
 .main_grid > *:nth-child(2){
     flex-grow: 0.7;
-    padding-bottom: 10%;
+    /* padding-bottom: 5%; */
 }
 
 .main_grid > *:nth-child(3){
     flex-grow: 0.1;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 5%;
     
 }
@@ -49,6 +51,7 @@ body {
     flex-wrap: nowrap;
     justify-content: flex-start;
     height: 100%;
+    padding-top: 1%;
 }
 
 .content_grid > *:nth-child(2){
