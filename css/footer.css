@@ -24,11 +24,12 @@ ul{
 }
 
 .fa {
-    padding: 10%;
-    font-size: 10%;
-    width: 10%px;
     text-align: center;
     text-decoration: none;
+    background: #1d6cd3;
+    padding: 15%;
+    opacity: 60%;
+    border-radius: 10%;
   }
   
   .fa:hover {
@@ -37,9 +38,12 @@ ul{
   }
 
   .fa-linkedin {
-    background: #1d6cd3;
     color: white;
-    opacity: 60%;
-    border-radius: 10%;
-    
+    padding: 15%;
   }
+
+  @media (max-width: 768px) {
+    .fa-linkedin {
+        padding: 5px;
+      }
+}
