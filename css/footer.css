@@ -1,0 +1,49 @@
+footer {
+    padding: 3% 0;
+    padding-bottom: 3%;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-col {
+    width: 10%;
+    padding: 0 15%;
+}
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+    background: #1d6cd3;
+    padding: 15%;
+    opacity: 60%;
+    border-radius: 10%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .fa-linkedin {
+    color: white;
+    padding: 15%;
+  }
+
+  @media (max-width: 768px) {
+    .fa-linkedin {
+        padding: 5px;
+      }
+}

@@ -1,8 +1,10 @@
 :root {
     font-family: 'Play', sans-serif;
+    color:rgb(54, 1, 42);
     height: 100%;
     width: 100%;
     margin: 0;
+    font-size: calc((1vh+1vw)/2)
 }
 
 body {
@@ -33,10 +35,14 @@ body {
 
 .main_grid > *:nth-child(2){
     flex-grow: 0.7;
+    /* padding-bottom: 5%; */
 }
 
 .main_grid > *:nth-child(3){
     flex-grow: 0.1;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    
 }
 
 .content_grid {
@@ -45,12 +51,14 @@ body {
     flex-wrap: nowrap;
     justify-content: flex-start;
     height: 100%;
+    padding-top: 1%;
 }
 
 .content_grid > *:nth-child(2){
-    opacity: 80%;
-    background-color: rgb(240, 142, 218);
+    background: rgba(255,255,255,0.1);
     border-radius: 10%;
+    backdrop-filter: blur(5px);
+    box-shadow: -15px 17px 17px rgba(10,10,10,0);
 }
 
 .content_grid > *{
