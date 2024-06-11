@@ -65,6 +65,16 @@ body {
     flex: 1;
 }
 
+a {
+    background-color: rgba(245, 121, 235, 0.678);
+    color: rgba(255, 254, 254, 0.897);
+    padding: 1%;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: #8a8b8d;
+  }
+
 @media (max-width: 768px) {
     .content_grid > *:nth-child(1) {
         flex-grow: 0.1;
