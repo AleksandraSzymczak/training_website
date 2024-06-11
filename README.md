@@ -1,1 +1,1 @@
-# personal_website
+# Simple website - gathering all materials for training
