@@ -65,10 +65,16 @@ body {
     flex: 1;
 }
 
-a {
-    background-color: rgba(245, 121, 235, 0.678);
+a, #btnID {
     color: rgba(255, 254, 254, 0.897);
     text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-size: medium;
+}
+
+#image {
+    display: none;
 }
 
 a:hover {

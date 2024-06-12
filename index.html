@@ -20,9 +20,26 @@
                     <p></p>
                 </div>
                 <div class="main_box">
-                    <h2>Solve your problems with optimization<h3> ~materials</h3></h2>
-                    <br><p>Additional presentation:<br><br><a href="./images/Introduction-to-linear-programing-szymczak.pdf" download>Download the pdf</a></p>
-                    <p>Github source code:<br><br><a href="https://github.com/AleksandraSzymczak/Optimization-training-examples" download>Optimization examples</a></p>
+                    <h2>Solve your problems with optimization<h3> ~materials</h3>
+                    </h2>
+                    <br>
+                    <p>Additional presentation:<br><br><a href="" download><u>Not available</u></a></p>
+                    <p>Github source code:<br><br><a
+                            href="https://github.com/AleksandraSzymczak/Optimization-training-examples"
+                            download><u>Optimization examples</u></a></p>
+                    <p>Sudoku answer:<br><br>
+                        <img id="image" src="./images/sudoku_solution.JPG" alt="GFG image" />
+                        <button type="button" onclick="show()" id="btnID">
+                            <u>Show Image</u>
+                        </button>
+                    </p>
+                    <p>
+                        Graph answer:<br><br>
+                            <img id="image" src="./images/solution_graph.jpg" alt="GFG image" />
+                            <button type="button" onclick="show()" id="btnID">
+                                <u>Show Image</u>
+                            </button>
+                    </p>
                 </div>
                 <div>
                     <p></p>
@@ -35,7 +52,8 @@
                     <div class="row">
                         <div class="footer-col">
                             <ul>
-                                <li><a href="https://www.linkedin.com/in/aleksandra-szymczak/" target="_blank" class="fa fa-linkedin"></a></li>
+                                <li><a href="https://www.linkedin.com/in/aleksandra-szymczak/" target="_blank"
+                                        class="fa fa-linkedin"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -43,6 +61,14 @@
             </footer>
         </div>
     </div>
+    <script>
+        function show() {
+            document.getElementById('image')
+                .style.display = "block";
+            document.getElementById('btnID')
+                .style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
